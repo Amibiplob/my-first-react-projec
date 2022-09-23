@@ -1,0 +1,12 @@
+.users{
+   display: grid;
+   grid-template-columns: repeat(3 ,1fr);
+   grid-gap: 30px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.user{
+    padding: 20px;
+    border: solid 1px gray;
+    border-radius: 20px;
+}
